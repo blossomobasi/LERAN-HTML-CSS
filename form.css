@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+p {
+    font-size: large;
+    color: gray;
+    padding: 1rem 0;
+}
+p > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.img {
+    height: 100vh;
+    width: 100%;
+}
+.img > img {
+    height: 100%;
+    width: inherit;
+    object-fit: cover;
+}
+.form-header {
+    width: 100%;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 7rem;
+}
+
+form {
+    display: flex;
+    gap: 0.5rem 0;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+form > input {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border: 1px solid #dddada;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    gap: 0 0.5rem;
+    width: 100%;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: large;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 3.3rem;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
