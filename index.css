@@ -1,11 +1,68 @@
-body {
-    background-color: rgb(250, 227, 250);
+* {
+    margin: 0;
 }
 
-.heading {
-    text-align: center;
-    color: purple;
+.wrapper {
+    height: 100vh;
+    background-color: lightgray;
+    color: rgb(80, 84, 77);
+    padding: 0 20px;
 }
-/* #secondHeading {
-    color: blue;
-} */
+
+#heading {
+    text-align: center;
+    /* Different margin styles */
+    /* margin: 10px 20px 40px 60px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+
+    padding: 25px 0;
+    font-size: 40px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.list-items {
+    margin-left: 20px;
+}
+.food-list {
+    margin-bottom: 10px;
+}
+.car-list {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+.links {
+    padding: 10px 0;
+}
+
+input {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid rgb(80, 84, 77);
+    outline: none;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.787);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
