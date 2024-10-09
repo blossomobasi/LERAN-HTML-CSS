@@ -2,6 +2,30 @@
     margin: 0;
 }
 
+.container {
+    border: 1rem solid black;
+    height: 20rem;
+
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: rgb(80, 209, 97);
+    height: 10rem;
+    width: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
 .wrapper {
     height: 100vh;
     background-color: lightgray;
